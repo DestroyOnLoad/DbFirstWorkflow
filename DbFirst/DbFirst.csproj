@@ -61,6 +61,17 @@
     <Compile Include="CourseSection.cs">
       <DependentUpon>PlutoModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="funcGetAuthorCourses_Result.cs">
+      <DependentUpon>PlutoModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetCourses_Result.cs">
+      <DependentUpon>PlutoModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PlutoModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PlutoModel.Context.tt</DependentUpon>
+    </Compile>
     <Compile Include="PlutoModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -98,6 +109,7 @@
     <Content Include="PlutoModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>PlutoModel.edmx</DependentUpon>
+      <LastGenOutput>PlutoModel.Context.cs</LastGenOutput>
     </Content>
     <Content Include="PlutoModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
